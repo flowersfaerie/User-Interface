@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	/*display: inline-block;*/
+	margin: 1% 1% 40px 1%;
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	margin: 2%;
+	text-decoration: none;
+	color: darkgray;
+	font-weight: bold;
+	width: 8%;
+	
+}
+
+nav a:hover {
+	color: blueviolet;
+}
+
+.logo {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle
+}
+
+header {
+	margin: 1% 1% 40px 1%;
+	width: 100%;
+}
+
+.header_content {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 1%;
+	width: 47%;
+	min-width: 250px;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+#button {
+	border: 2px solid #2F2F2F;
+	margin: 10px 30%;
+	padding: 10px;
+}
+
+#button:hover {
+	background: darkgray;
+	color: mintcream;
+}
+
+.upper {
+	margin: 1%;
+	width: 100%;
+}
+
+.top_content {
+	display: inline-block;
+	margin: 1%;
+	width: 47%;
+	min-width: 150px;
+}
+
+.lower {
+	margin: 1%;
+	width: 100%;
+}
+
+.bottom_content {
+	display: inline-block;
+	margin: 1% 1% 40px 1%;
+	width: 31%;
+	min-width: 150px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.middle-img {
+	margin: 40px 0;
+}
+
+hr {
+	color: darkgray;
+	height: 2px;
+}
+
+address {
+	margin: 40px 0 40px 0;
+}
+
+address p {
+	margin: 0 0 1em 0;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+}
